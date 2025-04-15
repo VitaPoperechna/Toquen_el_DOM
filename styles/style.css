@@ -1,0 +1,88 @@
+body {
+    background: #fff;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.piano {
+    display: flex;
+    position: relative;
+}
+
+.key {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 14px;
+}
+
+.white {
+    width: 60px;
+    height: 200px;
+    background: #fff;
+    border: 1px solid #000;
+    z-index: 1;
+}
+
+.black {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 40px;
+    height: 120px;
+    background: #000;
+    z-index: 2;
+}
+
+.key span {
+    margin-bottom: 5px;
+    z-index: 3;
+    position: relative;
+    color: #000;
+}
+
+.white.pressed {
+    background: #ddd;
+}
+
+.black.pressed {
+    background: #333;
+}
+
+.drum-pad {
+  display: inline-block;
+  margin: 10px;
+  padding: 30px 40px;
+  background: #444;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.kick {
+  background-image: url('./images/drum_kick.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 180px;
+}
+
+.share {
+  background-image: url('./images/drum_share.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 180px;
+}
+
+.hihat {
+  background-image: url('./images/drum_hihat.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 180px;
+}
