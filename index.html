@@ -1,56 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toquen el DOM</title>
-    <meta name="description" content="Toca el piano virtual online gratis! Es una forma divertida y sencilla de aprender notas, acordes y canciones de piano online en tu PC, tableta o dispositivo móvil.">
-</head>
-<body>
 
-    <header>
-      <h1>Escuela de Musica Toquen el DOM</h1>
-      <p>Donde la pasión por la música cobra vida</p>
-    </header>
-  
-    <nav>
-      <a href="#bienvenida">Inicio</a>
-      <a href="#clases-virtuales">Clases virtuales</a>
-      <a href="#profesores">Profesores</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-  
-    <section id="bienvenida">
-      <h2>Bienvenidos</h2>
-      <p>Ofrecemos formación musical para todas las edades y niveles. Desde clases de piano hasta canto, nuestra misión es inspirarte a través de la música.</p>
-    </section>
-  
-    <section id="clases-virtuales">
-      <h2>Nuestros Cursos</h2>
-      <ul>
-        <li>Clases virtuales de piano</li>
-        <li>Clases virtuales de bateria</li>
-        <li>Clases virtuales de marimba</li>
-        <li>Canto y técnica vocal</li>
-        <li>Teoría musical y composición</li>
-      </ul>
-    </section>
-  
-    <section id="profesores">
-      <h2>Nuestros Profesores</h2>
-      <p>Contamos con un equipo de músicos profesionales apasionados por la enseñanza y el desarrollo artístico de cada alumno.</p>
-    </section>
-  
-    <section id="contacto">
-      <h2>Contacto</h2>
-      <p>📍 Dirección: Calle de la Toquen el Dom, 4 – Ciudad Dom<br>
-         📞 Teléfono: +34 000 000 000<br>
-         📧 Email: contacto@escuelatoqueneldom.com</p>
-    </section>
-  
-    <footer>
-      <p>&copy; 2025 Escuela de Música Toquen el DOM. Todos los derechos reservados.</p>
-    </footer>
-  
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toquen el DOM</title>
+  <meta name="description" content="Toca el piano virtual online gratis! Es una forma divertida y sencilla de aprender notas, acordes y canciones de piano online en tu PC, tableta o dispositivo móvil." />
+</head>
+
+<body>
+  <div class="piano">
+    <div data-note="C" class="key white"></div>
+    <div data-note="Db" class="key black"></div>
+    <div data-note="D" class="key white"></div>
+    <div data-note="E" class="key black"></div>
+    <div data-note="Eb" class="key white"></div>
+    <div data-note="F" class="key white"></div>
+    <div data-note="Gb" class="key black"></div>
+    <div data-note="G" class="key white"></div>
+    <div data-note="Ab" class="key black"></div>
+    <div data-note="A" class="key white"></div>
+    <div data-note="Bb" class="key black"></div>
+    <div data-note="B" class="key white"></div>
+  </div>
+  <audio id="C" src="/piano-mp3/C1.mp3"></audio>
+  <audio id="Db" src="/piano-mp3/Db1.mp3"></audio>
+  <audio id="D" src="/piano-mp3/D1.mp3"></audio>
+  <audio id="E" src="/piano-mp3/E1.mp3"></audio>
+  <audio id="Eb" src="/piano-mp3/Eb1.mp3"></audio>
+  <audio id="F" src="/piano-mp3/F1.mp3"></audio>
+  <audio id="Gb" src="/piano-mp3/Gb1.mp3"></audio>
+  <audio id="G" src="/piano-mp3/G1.mp3"></audio>
+  <audio id="Ab" src="/piano-mp3/Ab1.mp3"></audio>
+  <audio id="A" src="/piano-mp3/A1.mp3"></audio>
+  <audio id="Bb" src="/piano-mp3/Bb1.mp3"></audio>
+  <audio id="B" src="/piano-mp3/B1.mp3"></audio>
+
+  <script src="/js/script.js"></script> 
+</body>
+
 </html>
