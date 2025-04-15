@@ -64,7 +64,7 @@ body {
 }
 
 .kick {
-  background-image: url('./images/drum_kick.png');
+  background-image: url('/img/drum_kick.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
@@ -72,7 +72,7 @@ body {
 }
 
 .share {
-  background-image: url('./images/drum_share.png');
+  background-image: url('/img/drum_share.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
@@ -80,7 +80,7 @@ body {
 }
 
 .hihat {
-  background-image: url('./images/drum_hihat.png');
+  background-image: url('/img/drum_hihat.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
