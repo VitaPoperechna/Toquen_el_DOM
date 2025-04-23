@@ -45,9 +45,6 @@ nav ul li:hover{
 .logo {
     width: 100px;
 }
-.start {
-
-}
 *, *::before, *::after {
     box-sizing: border-box;  
 }
