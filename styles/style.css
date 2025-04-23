@@ -170,3 +170,74 @@ p, .play-piano {
     height: auto; /* La altura se ajusta según la proporción */
     display: block; /* Asegura que el iframe se comporte como un bloque */
   }
+
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.footer-left,
+.footer-right {
+    width: 48%;
+}
+
+.footer-left ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 170px;
+}
+
+.footer-left ul li {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.social-icons a {
+    margin-right: 20px;
+}
+
+.footer-left .social-icons img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer-right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right input {
+    margin-bottom: 15px;
+    padding: 14px;
+    font-size: 12px;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+.footer-right button {
+    background-color: #ffff55;
+    width: 200px;
+    padding: 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 30px;
+    align-self: center;
+}
+
+.footer-right button:hover {
+    background-color: #f0f033;
+}
+
+footer .copyright {
+    text-align: center;
+    font-size: 12px;
+}
