@@ -108,3 +108,65 @@ p, .play-piano {
 #play p {
     color: #FE0073;
 }
+#tutorials {
+    padding: 20px;
+    text-align: center;
+    background-color: #00ffd5;
+  }
+  
+  #tutorials h2 {
+    color: #fe0073;
+    margin-bottom: 20px;
+  }
+  
+  .tutorial-item {
+    display: inline-block;
+    margin: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f0f8ff;
+    width: 300px;
+  }
+  
+  .tutorial-item video {
+    width: 300px;
+    height: auto;
+    display: block;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .tutorial-item p {
+    padding: 10px;
+    margin: 0;
+    font-size: 1em;
+    color: #fe0073;
+    font-weight: bold;
+  }
+  
+  /* Estilos para pantallas más pequeñas (preguntar que piensan las compañeras?) */
+  @media (max-width: 768px) {
+    .tutorial-item {
+      width: 90%;
+      display: block;
+      margin: 15px auto;
+    }
+  
+    .tutorial-item video {
+      width: 100%;
+    }
+  }
+  .tutorial-item iframe {
+    width: 100%; /* El iframe ocupa el ancho del contenedor */
+    aspect-ratio: 16 / 9; /* Mantiene la proporción del video */
+    height: auto; /* La altura se ajusta según la proporción */
+    display: block; /* Asegura que el iframe se comporte como un bloque */
+  }
