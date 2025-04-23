@@ -1,2 +1,2 @@
-export const WHITE_KEYS = ['z', 'x', 'c', 'v', 'b', 'n', 'm']
-export const BLACK_KEYS = ['s', 'd', 'g', 'h', 'j']
+export const WHITE_KEYS = ['z', 'x', 'c', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', 'v', 'b', 'n', 'm', ',', '.', '/']
+export const BLACK_KEYS = ['s', 'd', 'f', 'g', '2', '3', '4', '6', '7', '9', '0', '-', 'j', 'k', 'l']
