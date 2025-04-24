@@ -1,14 +1,25 @@
-git# Toquen el DOM - Escuela de Música Online Interactiva - Página Web Oficial
+git# Toquen el DOM - Escuela de Música Online Interactiva
 
-> La página web oficial de Toquen el DOM, un espacio dedicado a la enseñanza y el amor por la música.
+🎶 Proyecto de escuela de música en línea
+
+Este es un sitio web para una escuela de música en línea, creado con el objetivo de ayudar a los usuarios a practicar la interpretación de diferentes instrumentos en un formato cómodo e interactivo.
+
+🔹 Los usuarios pueden interactuar con los instrumentos haciendo clic con el mouse o presionando teclas del teclado, lo que permite reproducir sonidos en tiempo real.
+🔹 El proyecto está desarrollado con HTML, CSS y JavaScript, y se ejecuta localmente mediante Docker con el servidor Nginx.
+
+Este sitio puede utilizarse como una herramienta educativa o simplemente como una forma divertida de jugar con sonidos 🎧
 
 ## 🚀 Demo en Vivo
 
-[Enlace a la página web en vivo (si está desplegada)]
+[🔗 Ver la página en línea](https://vitaflash.github.io/Toquen_el_DOM)
 
-## 🖼️ Capturas de Pantalla
+## Capturas de Pantalla
 
-[Incluye aquí algunas capturas de pantalla de la página web para dar una vista previa visual.]
+[![temp-Image-Mu-Df-ZG.avif](https://i.postimg.cc/kghQh05s/temp-Image-Mu-Df-ZG.avif)](https://postimg.cc/sM7GM07G)
+
+## Capturas de Diagrama de flujo
+
+[![temp-Image-Mdw-GGm.avif](https://i.postimg.cc/9Xpqn689/temp-Image-Mdw-GGm.avif)](https://postimg.cc/2316qKfj)
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -18,11 +29,9 @@ Esta página web ha sido desarrollada utilizando las siguientes tecnologías:
     * HTML5
     * CSS3
     * JavaScript 
-    * [Otras librerías o herramientas de frontend]
 * **Otros:**
-    * [Sistema de gestión de contenidos (CMS) si se utiliza, por ejemplo: WordPress, Strapi]
-    * [Herramientas de construcción/empaquetado, por ejemplo: Webpack, Parcel, Vite]
-    * [Servicios de despliegue, por ejemplo: Netlify, Vercel, Heroku]
+    * Docker
+    * Git
 
 ## ⚙️ Instalación y Configuración
 
@@ -30,82 +39,67 @@ Sigue estos pasos para ejecutar el proyecto localmente:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/sindresorhus/del](https://github.com/sindresorhus/del)
+    git clone https://github.com/vitaFlash/Toquen_el_DOM
     cd [nombre-del-repositorio]
-    ```
 
-2.  **Instala las dependencias del frontend:**
-    Si utilizas un framework como React, Vue.js, etc.:
+2.  **Construye la imagen Docker::**
     ```bash
-    cd frontend  # O la carpeta donde se encuentra el frontend
-    npm install  # o yarn install
+    docker build -t mi-proyecto .
+   
     ```
 
-3.  **Instala las dependencias del backend (si aplica):**
+3.  **Ejecuta el contenedor:**
     ```bash
-    cd backend  # O la carpeta donde se encuentra el backend
-    npm install  # o pip install -r requirements.txt (para Python)
+    docker run -d -p 8080:80 mi-proyecto
     ```
 
-4.  **Configura las variables de entorno (si son necesarias):**
-    Crea un archivo `.env` en la raíz del proyecto (o en las carpetas `frontend` y `backend` si es necesario) y define las variables de entorno necesarias (por ejemplo, claves de API, URLs de bases de datos). Consulta los archivos de configuración o la documentación del backend para saber qué variables necesitas.
+4.  **Abre el proyecto en el navegador:**
+   Accede a http://localhost:8080
 
-5.  **Ejecuta el servidor de desarrollo del frontend:**
-    ```bash
-    cd frontend
-    npm start  # o yarn start
-    ```
+   Este proyecto usa nginx:alpined como servidor web ligero para servir los archivos estáticos (HTML, CSS, JS).
 
-6.  **Ejecuta el servidor del backend (si aplica):**
-    ```bash
-    cd backend
-    npm run dev  # o python manage.py runserver (para Django)
-    ```
+   Asegúrate de que el puerto 8080 no esté en uso por otra aplicación. 
 
-7.  **Abre la página web en tu navegador:**
-    Normalmente estará disponible en `http://localhost:[puerto]` (el puerto puede variar dependiendo de la configuración).
-
-## ✨ Funcionalidades Principales
-
-Describe las funcionalidades clave de la página web de la escuela de música:
-
-* **Información General:**
-    * Presentación de la escuela, su historia y filosofía.
-    * Información de contacto (dirección, teléfono, correo electrónico).
-    * 
-* **Cursos y Clases:**
-    * Listado detallado de los cursos e instrumentos ofrecidos.
-    * Descripción de los niveles (principiante, intermedio, avanzado).
-    * Información sobre los profesores y sus especialidades.
-    * 
-* **Galería:**
-    * Galería de fotos y/o videos de las instalaciones, clases, eventos, etc.
-* **Inscripción y Contacto:**
-    * Formulario de contacto para consultas e inscripciones.
-    * Información sobre el proceso de inscripción y tarifas (puede ser una sección 
-
-## 🤝 Contribuciones
-
-¡Las contribuciones son bienvenidas! Si deseas colaborar en este proyecto, por favor sigue estos pasos:
-
-1.  Haz un fork del repositorio.
-2.  Crea una nueva rama con tu propuesta de mejora (`git checkout -b feature/nueva-funcionalidad`).
-3.  Realiza tus cambios y commitea (`git commit -am 'Añade nueva funcionalidad'`).
-4.  Sube tus cambios al repositorio remoto (`git push origin feature/nueva-funcionalidad`).
-5.  Abre un Pull Request para que revisemos tus cambios.
-
-Por favor, revisa el archivo `CONTRIBUTING.md` (si existe) para obtener más detalles sobre las pautas de contribución.
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
-
-## 📧 Contacto
-
-[Tu Nombre] - [Tu Correo Electrónico]
-[Enlace a tu perfil de GitHub (opcional)]
-[Enlace a la página web de la escuela de música]
+## Contributors
+Mariya Byehan 
+<a href="https://github.com/Marichka75">
+  <picture>
+    <source srcset="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" media="(prefers-color-scheme: dark)">
+    <source srcset="https://img.icons8.com/ios-glyphs/30/000000/github.png" media="(prefers-color-scheme: light)">
+    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub icon"/>
+  </picture>
+</a>
+Vita Flash 
+<a href="https://github.com/Marichka75">
+  <picture>
+    <source srcset="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" media="(prefers-color-scheme: dark)">
+    <source srcset="https://img.icons8.com/ios-glyphs/30/000000/github.png" media="(prefers-color-scheme: light)">
+    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub icon"/>
+  </picture>
+</a>
+Vita Poperechna 
+<a href="https://github.com/Marichka75">
+  <picture>
+    <source srcset="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" media="(prefers-color-scheme: dark)">
+    <source srcset="https://img.icons8.com/ios-glyphs/30/000000/github.png" media="(prefers-color-scheme: light)">
+    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub icon"/>
+  </picture>
+</a>
+NepyAnna 
+<a href="https://github.com/Marichka75">
+  <picture>
+    <source srcset="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" media="(prefers-color-scheme: dark)">
+    <source srcset="https://img.icons8.com/ios-glyphs/30/000000/github.png" media="(prefers-color-scheme: light)">
+    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub icon"/>
+  </picture>
+</a>
 
 ---
-
 ¡Esperamos que esta página web sea una gran herramienta para la Escuela de Música "Toquen el DOM"!
+
+## Descargo de responsabilidad
+Este proyecto ha sido desarrollado como parte de una experiencia de aprendizaje en un bootcamp y está destinado únicamente a fines educativos. Los creadores y colaboradores no se hacen responsables de ningún problema, daño o pérdida que pueda surgir del uso de este código.
+Este proyecto no está destinado para uso comercial, y cualquier marca registrada o referencia a servicios de terceros (como Funko) pertenece a sus respectivos propietarios. Al utilizar este código, reconoces que es un trabajo en desarrollo, creado por personas en proceso de aprendizaje, y que se proporciona sin garantías ni responsabilidades de ningún tipo.
+Utilízalo bajo tu propia responsabilidad y criterio.
+
+¡Gracias! ❤️
