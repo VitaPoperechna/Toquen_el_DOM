@@ -69,13 +69,37 @@ Mariya Byehan
     <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub icon"/>
   </picture>
 </a>
-Vita Flash [![vitaFlash](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/vitaFlash),
-Vita Poperechna [![VitaPoperechna](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/VitaPoperechna),
-NepyAnna [![NepyAnna](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/NepyAnna)
+Vita Flash 
+<a href="https://github.com/Marichka75">
+  <picture>
+    <source srcset="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" media="(prefers-color-scheme: dark)">
+    <source srcset="https://img.icons8.com/ios-glyphs/30/000000/github.png" media="(prefers-color-scheme: light)">
+    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub icon"/>
+  </picture>
+</a>
+Vita Poperechna 
+<a href="https://github.com/Marichka75">
+  <picture>
+    <source srcset="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" media="(prefers-color-scheme: dark)">
+    <source srcset="https://img.icons8.com/ios-glyphs/30/000000/github.png" media="(prefers-color-scheme: light)">
+    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub icon"/>
+  </picture>
+</a>
+NepyAnna 
+<a href="https://github.com/Marichka75">
+  <picture>
+    <source srcset="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" media="(prefers-color-scheme: dark)">
+    <source srcset="https://img.icons8.com/ios-glyphs/30/000000/github.png" media="(prefers-color-scheme: light)">
+    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub icon"/>
+  </picture>
+</a>
 
 ---
 ¡Esperamos que esta página web sea una gran herramienta para la Escuela de Música "Toquen el DOM"!
 
 ## Descargo de responsabilidad
 Este proyecto ha sido desarrollado como parte de una experiencia de aprendizaje en un bootcamp y está destinado únicamente a fines educativos. Los creadores y colaboradores no se hacen responsables de ningún problema, daño o pérdida que pueda surgir del uso de este código.
-Este proyecto no está destinado para uso comercial, y cualquier marca registrada o referencia a servicios de terceros (como Funko) pertenece a sus 
+Este proyecto no está destinado para uso comercial, y cualquier marca registrada o referencia a servicios de terceros (como Funko) pertenece a sus respectivos propietarios. Al utilizar este código, reconoces que es un trabajo en desarrollo, creado por personas en proceso de aprendizaje, y que se proporciona sin garantías ni responsabilidades de ningún tipo.
+Utilízalo bajo tu propia responsabilidad y criterio.
+
+¡Gracias! ❤️
