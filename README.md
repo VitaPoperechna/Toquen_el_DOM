@@ -1,6 +1,7 @@
 git# Toquen el DOM - Escuela de Música Online Interactiva
 
 🎶 Proyecto de escuela de música en línea
+
 Este es un sitio web para una escuela de música en línea, creado con el objetivo de ayudar a los usuarios a practicar la interpretación de diferentes instrumentos en un formato cómodo e interactivo.
 
 🔹 Los usuarios pueden interactuar con los instrumentos haciendo clic con el mouse o presionando teclas del teclado, lo que permite reproducir sonidos en tiempo real.
@@ -59,10 +60,6 @@ Sigue estos pasos para ejecutar el proyecto localmente:
 
    Asegúrate de que el puerto 8080 no esté en uso por otra aplicación. 
 
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
-
 ## Contributors
 Mariya Byehan [![Marichka75](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/Marichka75)
 Vita Flash [![vitaFlash](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/vitaFlash),
@@ -74,9 +71,7 @@ NepyAnna [![NepyAnna](https://img.icons8.com/ios-glyphs/30/000000/github.png)](h
 
 ## Descargo de responsabilidad
 Este proyecto ha sido desarrollado como parte de una experiencia de aprendizaje en un bootcamp y está destinado únicamente a fines educativos. Los creadores y colaboradores no se hacen responsables de ningún problema, daño o pérdida que pueda surgir del uso de este código.
-
 Este proyecto no está destinado para uso comercial, y cualquier marca registrada o referencia a servicios de terceros (como Funko) pertenece a sus respectivos propietarios. Al utilizar este código, reconoces que es un trabajo en desarrollo, creado por personas en proceso de aprendizaje, y que se proporciona sin garantías ni responsabilidades de ningún tipo.
-
 Utilízalo bajo tu propia responsabilidad y criterio.
 
 ¡Gracias! ❤️
