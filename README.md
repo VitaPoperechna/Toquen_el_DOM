@@ -61,7 +61,14 @@ Sigue estos pasos para ejecutar el proyecto localmente:
    Asegúrate de que el puerto 8080 no esté en uso por otra aplicación. 
 
 ## Contributors
-Mariya Byehan [![Marichka75](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/Marichka75)
+Mariya Byehan 
+<a href="https://github.com/Marichka75">
+  <picture>
+    <source srcset="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" media="(prefers-color-scheme: dark)">
+    <source srcset="https://img.icons8.com/ios-glyphs/30/000000/github.png" media="(prefers-color-scheme: light)">
+    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub icon"/>
+  </picture>
+</a>
 Vita Flash [![vitaFlash](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/vitaFlash),
 Vita Poperechna [![VitaPoperechna](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/VitaPoperechna),
 NepyAnna [![NepyAnna](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/NepyAnna)
@@ -71,7 +78,4 @@ NepyAnna [![NepyAnna](https://img.icons8.com/ios-glyphs/30/000000/github.png)](h
 
 ## Descargo de responsabilidad
 Este proyecto ha sido desarrollado como parte de una experiencia de aprendizaje en un bootcamp y está destinado únicamente a fines educativos. Los creadores y colaboradores no se hacen responsables de ningún problema, daño o pérdida que pueda surgir del uso de este código.
-Este proyecto no está destinado para uso comercial, y cualquier marca registrada o referencia a servicios de terceros (como Funko) pertenece a sus respectivos propietarios. Al utilizar este código, reconoces que es un trabajo en desarrollo, creado por personas en proceso de aprendizaje, y que se proporciona sin garantías ni responsabilidades de ningún tipo.
-Utilízalo bajo tu propia responsabilidad y criterio.
-
-¡Gracias! ❤️
+Este proyecto no está destinado para uso comercial, y cualquier marca registrada o referencia a servicios de terceros (como Funko) pertenece a sus 
