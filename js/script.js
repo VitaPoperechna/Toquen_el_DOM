@@ -34,3 +34,4 @@ function playNote(key){
 }
 pressTheKeys();
 pressTheKeysKeybord();
+console.log(keys);
