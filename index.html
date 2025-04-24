@@ -1,11 +1,201 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toquen el DOM</title>
+  <meta charset="UTF-8" />
+  <title>Toquen el DOM</title>
+  <meta name="description"
+    content="Toca el piano virtual online gratis! Es una forma divertida y sencilla de aprender notas, acordes y canciones de piano online en tu PC, tableta o dispositivo móvil." />
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
-    <h1>Toquen el DOM</h1>
+
+  <header>
+    <nav>
+      <img data-note="toquen" class="logo" src="./source/logo/LOGO.svg" alt="logo">
+      <audio id="toquen" src="./piano-mp3/WOOLFSON - Dreams.mp3"></audio>
+      <ul>
+        <li><a href="#start">Inicio</a></li>
+        <li><a href="#play">Tocar</a></li>
+        <li><a href="#tutorials">Tutoriales</a></li>
+        <li><a href="#about-us">Sobre Nosotros</a></li>
+        <li><a href="#contact-us">Contactar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="background-magenta">
+      <section id="start">
+        <h1>Aprendé música desde casa con solo un click o una tecla</h1>
+        <p>Aprende y toca instrumentos reales desde tu navegador. &#127932; Divertido, interactivo y hecho para amantes de la música de todos los niveles. &#127752; Sin descargas, sin estrés — solo flow y creatividad. &#127911; ¡Haz clic, toca, y arma tu propia melodía! &#10084; Responsivo, colorido y construido con mucho cariño. &#127929; ¿Listo para tocar? ¡Prueba el piano ahora! <a id="emoji" href="#play">&#128071;</a></p>
+      </section>
+    </div>
+    <div class="background-white">
+      <section id="play">
+        <div class="play-piano">
+          <div class="piano">
+            <div data-note="C3" class="key white"></div>
+            <div data-note="Db3" class="key black"></div>
+            <div data-note="D3" class="key white"></div>
+            <div data-note="Eb3" class="key black"></div>
+            <div data-note="E3" class="key white"></div>
+            <div data-note="F3" class="key white"></div>
+            <div data-note="Gb3" class="key black"></div>
+            <div data-note="G3" class="key white"></div>
+            <div data-note="Ab3" class="key black"></div>
+            <div data-note="A3" class="key white"></div>
+            <div data-note="Bb3" class="key black"></div>
+            <div data-note="B3" class="key white"></div>
+            <div data-note="C4" class="key white"></div>
+            <div data-note="Db4" class="key black"></div>
+            <div data-note="D4" class="key white"></div>
+            <div data-note="Eb4" class="key black"></div>
+            <div data-note="E4" class="key white"></div>
+            <div data-note="F4" class="key white"></div>
+            <div data-note="Gb4" class="key black"></div>
+            <div data-note="G4" class="key white"></div>
+            <div data-note="Ab4" class="key black"></div>
+            <div data-note="A4" class="key white"></div>
+            <div data-note="Bb4" class="key black"></div>
+            <div data-note="B4" class="key white"></div>
+            <div data-note="C5" class="key white"></div>
+            <div data-note="Db5" class="key black"></div>
+            <div data-note="D5" class="key white"></div>
+            <div data-note="Eb5" class="key black"></div>
+            <div data-note="E5" class="key white"></div>
+            <div data-note="F5" class="key white"></div>
+            <div data-note="Gb5" class="key black"></div>
+            <div data-note="G5" class="key white"></div>
+            <div data-note="Ab5" class="key black"></div>
+            <div data-note="A5" class="key white"></div>
+            <div data-note="Bb5" class="key black"></div>
+            <div data-note="B5" class="key white"></div>
+          </div>
+        </div>
+        <audio id="C3" src="piano-mp3/C3.mp3"></audio>
+        <audio id="Db3" src="piano-mp3/Db3.mp3"></audio>
+        <audio id="D3" src="piano-mp3/D3.mp3"></audio>
+        <audio id="Eb3" src="piano-mp3/Eb3.mp3"></audio>
+        <audio id="E3" src="piano-mp3/E3.mp3"></audio>
+        <audio id="F3" src="piano-mp3/F3.mp3"></audio>
+        <audio id="Gb3" src="piano-mp3/Gb3.mp3"></audio>
+        <audio id="G3" src="piano-mp3/G3.mp3"></audio>
+        <audio id="Ab3" src="piano-mp3/Ab3.mp3"></audio>
+        <audio id="A3" src="piano-mp3/A3.mp3"></audio>
+        <audio id="Bb3" src="piano-mp3/Bb3.mp3"></audio>
+        <audio id="B3" src="piano-mp3/B3.mp3"></audio>
+        <audio id="C4" src="piano-mp3/C4.mp3"></audio>
+        <audio id="Db4" src="piano-mp3/Db4.mp3"></audio>
+        <audio id="D4" src="piano-mp3/D4.mp3"></audio>
+        <audio id="Eb4" src="piano-mp3/Eb4.mp3"></audio>
+        <audio id="E4" src="piano-mp3/E4.mp3"></audio>
+        <audio id="F4" src="piano-mp3/F4.mp3"></audio>
+        <audio id="Gb4" src="piano-mp3/Gb4.mp3"></audio>
+        <audio id="G4" src="piano-mp3/G4.mp3"></audio>
+        <audio id="Ab4" src="piano-mp3/Ab4.mp3"></audio>
+        <audio id="A4" src="piano-mp3/A4.mp3"></audio>
+        <audio id="Bb4" src="piano-mp3/Bb4.mp3"></audio>
+        <audio id="B4" src="piano-mp3/B4.mp3"></audio>
+        <audio id="C5" src="piano-mp3/C5.mp3"></audio>
+        <audio id="Db5" src="piano-mp3/Db5.mp3"></audio>
+        <audio id="D5" src="piano-mp3/D5.mp3"></audio>
+        <audio id="Eb5" src="piano-mp3/Eb5.mp3"></audio>
+        <audio id="E5" src="piano-mp3/E5.mp3"></audio>
+        <audio id="F5" src="piano-mp3/F5.mp3"></audio>
+        <audio id="Gb5" src="piano-mp3/Gb5.mp3"></audio>
+        <audio id="G5" src="piano-mp3/G5.mp3"></audio>
+        <audio id="Ab5" src="piano-mp3/Ab5.mp3"></audio>
+        <audio id="A5" src="piano-mp3/A5.mp3"></audio>
+        <audio id="Bb5" src="piano-mp3/Bb5.mp3"></audio>
+        <audio id="B5" src="piano-mp3/B5.mp3"></audio>
+        <h3>Teclas blancas</h3>
+        <p>C3 - key z; D3 - key x; E3 - key c; F3 - key q; G3 - key w; A3 - key e; B3 - key r; C4 - key t; D4 - key y; E4 - key u; F4 - key I; G4 - key o; A4 - key p; B4 - key [ ; C5 - key ] ; D5 - key v; E5 b; F5 - key n; G5 - key m; A5 - key , ; B5 - key . ; C6 - key / .</p>
+        <h3>Teclas negras</h3>
+        <p>C3# - key s; D3# - key d; F3# - key f; G3# - key g; A# - key 2; C4# - key 3; D4# - key 4,; F4 - key 6; G4# - key 7, A4# - 9, C5# - key 0, D5# - key -; F5# - key j; G5# key k, A5# - key l .</p>
+      </section>
+    </div>
+    <div class="background-mint">
+      <section id="tutorials">
+        <h2>¿No sabés por dónde empezar?</h2>
+        <div class="tutorial-item">
+          <iframe src="https://www.youtube.com/embed/Qbdx2TQx56o" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <p>Primeros pasos con el piano</p>
+        </div>
+        <div class="tutorial-item">
+          <iframe src="https://www.youtube.com/embed/DUD9pxwW_zQ" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <p>Acordes básicos para principiantes</p>
+        </div>
+      </section>
+    </div>
+    <div class="background-grey">
+      <section id="about-us">
+        <h2>Sobre Nosotros</h2>
+        <p>Breve historia de la escuela “Toquen el DOM”
+          “Toquen el DOM” nace como un proyecto creativo y educativo desarrollado por un talentoso equipo de estudiantes
+          de
+          la escuela de programación FemCoders. Inspiradas por la pasión por la música y el código, Vitaliia, Mariya,
+          Ana y
+          Vita unieron fuerzas para crear una plataforma interactiva donde aprender música se vuelve accesible,
+          divertida y
+          completamente online.
+          El nombre del proyecto juega con el mundo del desarrollo web (el DOM) y el arte de tocar un instrumento,
+          reflejando a la perfección la esencia del proyecto: tecnología al servicio de la educación artística.
+          Con este proyecto, buscamos demostrar que el aprendizaje puede ser dinámico, colaborativo y lleno de
+          creatividad.
+          ¡Que empiece la música y que suene el DOM!</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="background-grey">
+      <section id="contact-us">
+        <div class="footer-left">
+          <ul class="outer-list">
+            <li class="title-resource">Creditors del proecto
+              <ul class="resource">
+                <li><a href="https://www.linkedin.com/in/vitakostu">Vitalia Rubanenko</a></li>
+                <li><a href="https://www.linkedin.com/in/vita-poperechna">Vita Poperechna</a></li>
+                <li><a href="https://www.linkedin.com/in/maria-byehan">Mariya Byehan</a></li>
+                <li><a href="https://www.linkedin.com/in/anna-nepyivoda">Anna Nepyivoda</a></li>
+              </ul>
+            </li>
+            <li class="title-resource">Enlaces rapidos
+              <ul class="resource">
+                <li><a href="https://github.com/vitaFlash/Toquen_el_DOM">Repositorio GitHub</a></li>
+                <li><a
+                    href="https://www.figma.com/proto/qXAUobiZM03Ka2U7mwiXMd/Toquen-el-DOM?page-id=0%3A1&node[…]lKYFwUt50N2lsZ-1&scaling=scale-down&content-scaling=responsive">Figma</a>
+                </li>
+                <li><a href="https://sheoanna.atlassian.net/jira/software/projects/PR/boards/4">Jira</a></li>
+                <li><a href="https://www.canva.com/design/DAGld9sdMss/YgMz2uMK8Aoljhe0SuC8xQ/edit">Presentación</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="social-icons">
+            <a href="https://urianviera.com/javascript/lista-de-metodos-mas-usados-en-javascript"><img src="./source/icons/icons8-linkedin-circled-50.svg" alt="LnkedIn-icon"></a>
+            <a href="https://www.youtube.com/watch?v=kg1BljLu9YY&pp=ygURc2lhIHRodW5kZXJjbG91ZHM%3D"><img src="./source/icons/icons8-x-50.svg" alt="X-icon"></a>
+            <a href="https://youtu.be/CmfDPSQoESo?si=B0oBaqOw2GT4jpbg"><img src="./source/icons/icons8-youtube-50.svg" alt="YouTube-icon"></a>
+            <a href="https://youtube.com/shorts/64ubsN4NSNE?si=syLNh9WsYV2TUVyD"><img src="./source/icons/pngimg.com - github_PNG40 2.svg" alt="GitHub-icon"></a>
+          </div>
+        </div>
+        <div class="footer-right">
+          <form action="">
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Last Name" />
+            <input type="email" placeholder="What is your email?" />
+            <input type="text" placeholder="Your message" />
+            <button type="submit">Send us</button>
+          </form>
+        </div>
+      </section>
+      <p class="copyright">&copy; 2025 All rights reserved</p>
+    </div>
+  </footer>
+  <script type="module" src="./js/script.js"></script>
 </body>
 </html>
