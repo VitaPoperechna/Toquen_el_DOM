@@ -1,4 +1,3 @@
-# script pipeline to check functionality of the pipeline
 pipeline {
     agent any
     stages {
